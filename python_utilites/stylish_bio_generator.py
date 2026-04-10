@@ -3,13 +3,14 @@ import textwrap
 name = input("What is your name? ").strip()
 profession = input("What is your profession? ").strip()
 passion = input("What is your passion? ").strip()
-emoji = input("What is your favorite emoji? ").strip()
-website = input("What is your website or portfolio link? ").strip()
+emoji = input("What is your favorite emoji? ").strip() or "👍"
+website = input("What is your website or portfolio link? ").strip() or "N/A"
 
 print ("\n Choose your preferred style for the bio:")
 print("1. Simple lines")
 print("2. Verical flairs")
 print ("3. Emoji Sandwich")
+
 
 style = input("Enter the number corresponding to your preferred style: ").strip()
 
