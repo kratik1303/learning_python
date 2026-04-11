@@ -12,9 +12,11 @@ print("2. Verical flairs")
 print ("3. Emoji Sandwich")
 
 
+
 style = input("Enter the number corresponding to your preferred style: ").strip()
 
 def generate_bio(style):
+    
     if style == "1":
         return f"{emoji} {name} | {profession}\n 🔥{passion}\n 🔥{website}\n"
     if style == "2":
