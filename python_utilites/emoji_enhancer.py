@@ -17,7 +17,7 @@ updated_words = [ ]
 
 for word in user_msg.split():
     cleaned = word.lower().strip(',.!?')
-    emoji=  emoji_map_fun.get(cleaned,'')
+    emoji = emoji_map_fun.get(cleaned,'')
     
     if emoji :
         updated_words.append(f"{word} {emoji} ")

@@ -29,3 +29,6 @@ spice_mix.add("tea")
 spice_mix.add("milk")
 print(f"After value of set is :{spice_mix}")
 print(f"After identity of set is :{id(spice_mix)}")
+
+
+## since now initial and after identity of set are same so set is mutable
