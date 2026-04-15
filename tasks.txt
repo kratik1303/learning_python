@@ -1,0 +1,5 @@
+Learn python || done 
+ Learn JS || done 
+ go to gym || not_done 
+ Complete cohort || not_done 
+ 
